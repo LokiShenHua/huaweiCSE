@@ -1,0 +1,16 @@
+#server:
+#  port: 8080
+#  servlet:
+#    context-path: /hello
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?characterEncoding=UTF-8
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+#mybatis:
+#  type-aliases-package: com.huawei.cse.porter.website.pojo
+#  mapper-locations: com.huawei.cse.porter.website.dao
